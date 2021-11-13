@@ -89,12 +89,12 @@ const countUp = function () {
 
   /////////////////////////////////////////////////////////////////////////
 
-let str;
+let str="";
   const addToList = function (toDo) {
-    // TODO: Your code here
+    str=str+toDo;
     return toDo;
   };
-  str=toDo;
+  
   
   /*
   addToList("Eat"); // => 'Eat'
